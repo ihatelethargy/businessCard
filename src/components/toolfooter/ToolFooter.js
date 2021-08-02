@@ -37,11 +37,16 @@ function ToolFooter() {
             </div>
             <div className="toolWrapper">
                 <div className="toolItem">
-                    <img src={phone} alt="" />
+                    <a href="tel:02-6228-5100">
+                        <img src={phone} alt="" />
+                    </a>
                     <span>전화상담</span>
                 </div>
+
                 <div className="toolItem">
-                    <img src={home} alt="" />
+                    <a href="https://zerotoonepartners.com/">
+                        <img src={home} alt="" />
+                    </a>
                     <span>홈페이지</span>
                 </div>
                 <div className="toolItem">
